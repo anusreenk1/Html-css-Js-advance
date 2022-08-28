@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('../images/bg full.jpg');
+    background-size: cover;
+
+    
+}
+.main-header{
+    display:grid;
+    grid-template-columns: 1fr 5fr 3fr;
+    grid-gap:20rem;
+    align-items: center;
+    
+
+
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s ease-in-out;
+
+}
+.main-nav li{
+    display:inline-block;
+    margin:20px;
+    margin-left: 4rem;
+    
+
+    
+}
+.main-bar2 button {
+    margin:2em;
+    border: 3px solid #C0C0C0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #0d99b9;
+    color: #fff;
+
+}
+.main-header img{
+    width:150px;
+    border: 3px solid #0d99b9;
+    border-radius: 10px;
+}
+.hero-form{
+    border: 3px solid #C0C0C0;
+    min-width:200px;
+    position: absolute;
+    padding: 8rem 5rem;
+    transform: translate(25%, 25%);
+    text-align: center;
+}
+.hero-form h2{
+    color:#fff;
+    font-size:18px;
+    border:2px #C0C0C0;
+    padding: 5px;
+    border-radius: 8px;
+    border-style: outset;
+    
+    
+
+}
+.hero-form input{
+    min-width:300px;
+    height:30px;
+    text-align:center;
+    margin: 3px;
+    border:2px solid #C0C0C0;
+    border-radius: 8px;
+    background-color: #0d99b9;
+}
+.submit{
+
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    border:2px solid #C0C0C0;
+    
+    
+
+}
+.hero-form p{
+    color:#C0C0C0;
+    font-size: 1em;
+    border-radius: 20px;
+    padding:20px;
+    background-image: linear-gradient(#030202, #0d99b9);
+   
+}
+.main-nav a:hover{
+  color: #0d99b9;
+
+}
+
+.submit:hover{
+    background-color:#0d99b9;
+}
+.hero-form input:hover{
+    background-color: #fff;
+}
